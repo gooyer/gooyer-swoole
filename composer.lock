@@ -1,0 +1,347 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ff3b77aa24684a690793aae1ac96027d",
+    "packages": [
+        {
+            "name": "dflydev/fig-cookies",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/dflydev/dflydev-fig-cookies.git",
+                "reference": "733af78ddad60aec96f7c4a1204619dd4d62afff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/dflydev/dflydev-fig-cookies/zipball/733af78ddad60aec96f7c4a1204619dd4d62afff",
+                "reference": "733af78ddad60aec96f7c4a1204619dd4d62afff",
+                "shasum": ""
+            },
+            "require": {
+                "ext-pcre": "*",
+                "php": "^7.2",
+                "psr/http-message": "^1"
+            },
+            "require-dev": {
+                "doctrine/coding-standard": "^4",
+                "phpstan/phpstan": "^0.10.1",
+                "phpunit/phpunit": "^7.2.6",
+                "squizlabs/php_codesniffer": "^3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Dflydev\\FigCookies\\": "src/Dflydev/FigCookies"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Beau Simensen",
+                    "email": "beau@dflydev.com"
+                }
+            ],
+            "description": "Cookies for PSR-7 HTTP Message Interface.",
+            "keywords": [
+                "cookies",
+                "psr-7",
+                "psr7"
+            ],
+            "time": "2020-01-02T16:13:22+00:00"
+        },
+        {
+            "name": "gooyer/container",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gooyer/container.git",
+                "reference": "8df2f4330cc9ed92df3a98bd50e601fc72d941d4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gooyer/container/zipball/8df2f4330cc9ed92df3a98bd50e601fc72d941d4",
+                "reference": "8df2f4330cc9ed92df3a98bd50e601fc72d941d4",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4",
+                "psr/container": "^1.0"
+            },
+            "require-dev": {
+                "lctrs/psalm-psr-container-plugin": "^0.3.0",
+                "phpunit/phpunit": "^9.0",
+                "vimeo/psalm": "^3.16"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gooyer\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Łukasz Grajewski",
+                    "email": "grajewski.lukasz@wp.pl"
+                }
+            ],
+            "description": "PSR-11 Container implementation",
+            "time": "2020-09-29T10:34:32+00:00"
+        },
+        {
+            "name": "gooyer/contracts",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gooyer/contracts.git",
+                "reference": "d86e9bb43e16066c75f633488dcae6d8a5954655"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gooyer/contracts/zipball/d86e9bb43e16066c75f633488dcae6d8a5954655",
+                "reference": "d86e9bb43e16066c75f633488dcae6d8a5954655",
+                "shasum": ""
+            },
+            "require": {
+                "gooyer/container": "*"
+            },
+            "type": "project",
+            "autoload": {
+                "psr-4": {
+                    "Gooyer\\Contracts\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Łukasz Grajewski",
+                    "email": "grajewski.lukasz@wp.pl"
+                }
+            ],
+            "description": "Gooyer contracts package",
+            "time": "2020-09-29T20:02:06+00:00"
+        },
+        {
+            "name": "gooyer/swoole-psr7",
+            "version": "v0.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gooyer/swoole-psr7.git",
+                "reference": "bf248cd35b164e8bb8ce809084676841d7b8380e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gooyer/swoole-psr7/zipball/bf248cd35b164e8bb8ce809084676841d7b8380e",
+                "reference": "bf248cd35b164e8bb8ce809084676841d7b8380e",
+                "shasum": ""
+            },
+            "require": {
+                "dflydev/fig-cookies": "^2.0",
+                "psr/http-factory": "^1.0",
+                "psr/http-message": "^1.0"
+            },
+            "require-dev": {
+                "nyholm/psr7": "^1.0",
+                "phpunit/phpunit": "^8.5"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gooyer\\PsrSwoole\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ignacio El Kadre",
+                    "email": "imefisto@gmail.com"
+                },
+                {
+                    "name": "Grajewski Łukasz",
+                    "email": "grajewski.lukasz@wp.pl"
+                }
+            ],
+            "time": "2020-09-26T17:42:24+00:00"
+        },
+        {
+            "name": "psr/container",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/container.git",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Container\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https://github.com/php-fig/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "time": "2017-02-14T16:28:37+00:00"
+        },
+        {
+            "name": "psr/http-factory",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-factory.git",
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-factory/zipball/12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "reference": "12ac7fcd07e5b077433f5f2bee95b3a771bf61be",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "psr/http-message": "^1.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interfaces for PSR-7 HTTP message factories",
+            "keywords": [
+                "factory",
+                "http",
+                "message",
+                "psr",
+                "psr-17",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2019-04-30T12:38:16+00:00"
+        },
+        {
+            "name": "psr/http-message",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/http-message.git",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Http\\Message\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for HTTP messages",
+            "homepage": "https://github.com/php-fig/http-message",
+            "keywords": [
+                "http",
+                "http-message",
+                "psr",
+                "psr-7",
+                "request",
+                "response"
+            ],
+            "time": "2016-08-06T14:39:51+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "gooyer/contracts": 20,
+        "gooyer/container": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

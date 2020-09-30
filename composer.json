@@ -1,0 +1,22 @@
+{
+    "name": "gooyer/gooyer-swoole",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Lukasz Grajewsky",
+            "email": "grajewski.lukasz@wp.pl"
+        }
+    ],
+    "require": {
+        "gooyer/contracts": "dev-master",
+        "gooyer/container": "dev-master",
+        "gooyer/swoole-psr7": "^0.1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Gooyer\\": "src/"
+        }
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
