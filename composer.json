@@ -8,9 +8,12 @@
         }
     ],
     "require": {
+        "php": "^8.1",
         "gooyer/contracts": "dev-master",
         "gooyer/container": "dev-master",
-        "gooyer/swoole-psr7": "^0.1.1"
+        "gooyer/class-finder": "dev-master",
+        "gooyer/swoole-psr7": "dev-master",
+        "vlucas/phpdotenv": "^5.4"
     },
     "autoload": {
         "psr-4": {
