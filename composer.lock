@@ -169,12 +169,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/gooyer/contracts.git",
-                "reference": "5c45b46dcce26a53bfc26e74cd591e93934af641"
+                "reference": "46bd097d3dbc6598194cb0f813f96537596ad856"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/gooyer/contracts/zipball/5c45b46dcce26a53bfc26e74cd591e93934af641",
-                "reference": "5c45b46dcce26a53bfc26e74cd591e93934af641",
+                "url": "https://api.github.com/repos/gooyer/contracts/zipball/46bd097d3dbc6598194cb0f813f96537596ad856",
+                "reference": "46bd097d3dbc6598194cb0f813f96537596ad856",
                 "shasum": ""
             },
             "require": {
@@ -202,7 +202,7 @@
                 "issues": "https://github.com/gooyer/contracts/issues",
                 "source": "https://github.com/gooyer/contracts/tree/master"
             },
-            "time": "2020-09-29T20:08:03+00:00"
+            "time": "2022-06-22T06:30:10+00:00"
         },
         {
             "name": "gooyer/swoole-psr7",
